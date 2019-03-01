@@ -12,7 +12,7 @@ def quicksort(array):
 
 
 
-'''快排改进版'''
+'''分治'''
 def patition(array,beg,end):
     pivot_index=beg
     pivot=array[pivot_index]
